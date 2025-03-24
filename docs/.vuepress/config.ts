@@ -25,38 +25,27 @@ export default defineUserConfig({
 			{ text: 'RWKV Language Model', link: '/' },
 			{ 
 				text: 'Getting Started', 
-				link: '/basic/play.html',
+				link: '/basic/how-to-play.html',
 				children: [
-					"/basic/play.md",
+					"/basic/how-to-play.md",
 					"/basic/decoding-parameters.md",
 					"/basic/integrate.md",
 					"/basic/FAQ.md",
 				]
 			},
 			{ 
-				text: 'RWKV Prompting', 
-				link: '/RWKV-Prompts/prompt-guidelines.md',
+				text: 'Prompt Guide', 
+				link: '/RWKV-Prompts/prompt-guidelines.html',
 				children: [
 					"/RWKV-Prompts/prompt-guidelines.md",
-					"/RWKV-Prompts/Chat-Prompts.md",
-					"/RWKV-Prompts/Completion-Prompts.md",
-				]
-			},
-
-			{ 
-				text: 'Prompt Guide', 
-				link: '/RWKV-Prompts/Prompt-Format.html',
-				children: [
-					"/RWKV-Prompts/Prompt-Format.md",
 					"/RWKV-Prompts/Chat-Prompts.md",
 					"/RWKV-Prompts/Completion-Prompts.md"
 				]
 			},
 			{ 
 				text: 'Advanced', 
-				link: '/advance/finetune.html',
+				link: '/advance/architecture.html',
 				children: [
-					"/advance/finetune.md",
 					"/advance/architecture.md"
 				]
 			},
@@ -70,6 +59,18 @@ export default defineUserConfig({
 					"/inference/text-generation-webui.md",
 					"/inference/koboldcpp.md",
 					"/inference/ai00.md"
+				]
+			},
+			{ 
+				text: 'Fine-Tuning', 
+				link: '/RWKV-Fine-Tuning/Introduction.html',
+				children: [
+					"/RWKV-Fine-Tuning/Introduction.md",
+					"/RWKV-Fine-Tuning/State-Tuning.md",
+					"/RWKV-Fine-Tuning/LoRA-Fine-Tuning.md",
+					"/RWKV-Fine-Tuning/Pissa-Fine-Tuning.md",
+					"/RWKV-Fine-Tuning/DiSHA-Fine-Tuning.md",
+					"/RWKV-Fine-Tuning/FAQ.md",
 				]
 			},
 			{
