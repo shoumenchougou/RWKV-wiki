@@ -30,7 +30,7 @@ RWKV 5/6 architectures have several improvements based on the RWKV-4 architectur
 
 RWKV-7 is the latest version of the RWKV architecture. The training and inference code for the architecture has been finalized, and the architecture paper is being co-authored by Bo Peng and community members.
 
-RWKV-7 adopts Dynamic State Evolution, surpassing the fundamental limitations of the $TC$0 expressive power of the attention/linear attention paradigm.
+RWKV-7 adopts Dynamic State Evolution, surpassing the fundamental limitations of the $TC^0$ expressive power of the attention/linear attention paradigm.
 
 ::: details **Click to view RWKV-7 Architecture Diagram**
 ![RWKV-7-architecture](./basic/images/rwkv-7-architecture.jpg)
